@@ -1,0 +1,167 @@
+{
+  "name": "RELY Node-RED Nodes",
+  "updated_at": "2025-10-07T13:30:00.000Z",
+  "modules": [
+    {
+      "id": "@sialitech/node-red-contrib-rely-bundle",
+      "version": "1.0.0",
+      "description": "Complete RELY Node-RED nodes bundle - installs all nodes at once",
+      "keywords": ["node-red", "rely", "bundle", "industrial", "vision", "complete"],
+      "url": "https://github.com/Sialitech/rely-docs"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-anomalias",
+      "version": "1.0.0",
+      "description": "Nodo para gestionar anomalías basadas en detecciones",
+      "keywords": ["node-red", "anomalias", "detection", "quality"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-anomalias"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-camara-pycam",
+      "version": "1.0.0",
+      "description": "Nodo de cámara genicam para Node-RED",
+      "keywords": ["node-red", "camara", "pycam", "genicam", "camera"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-camara-pycam"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-camara-simulada",
+      "version": "1.0.0",
+      "description": "Nodo de cámara simulada para Node-RED",
+      "keywords": ["node-red", "camara", "simulada", "simulation", "testing"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-camara-simulada"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-lector-codigos",
+      "version": "1.0.0",
+      "description": "Nodo para leer códigos de barras y datamatrix",
+      "keywords": ["node-red", "codigos", "datamatrix", "barcode", "qr"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-lector-codigos"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-contaje",
+      "version": "1.0.0",
+      "description": "Nodo para contar la cantidad de elementos concretos detectados",
+      "keywords": ["node-red", "contaje", "counting", "detection"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-contaje"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-gestor",
+      "version": "1.0.0",
+      "description": "Nodo para gestionar la referencia con la que se va a trabajar",
+      "keywords": ["node-red", "gestor", "flows", "referencia", "management"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-gestor"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-id-manufacturer",
+      "version": "1.0.0",
+      "description": "Nodo para publicar un dato de identificación del elemento",
+      "keywords": ["node-red", "identificación", "elemento", "tracking"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-id-manufacturer"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-images",
+      "version": "1.0.0",
+      "description": "Previsualizador de imágenes en mosaico",
+      "keywords": ["node-red", "images", "preview", "mosaic", "visualization"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-images"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-marcha",
+      "version": "1.0.0",
+      "description": "Nodo para trabajar con un interruptor marcha/paro",
+      "keywords": ["node-red", "marcha", "interruptor", "trigger", "start-stop"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-marcha"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-medidas",
+      "version": "1.0.0",
+      "description": "Nodo para realizar mediciones en imágenes",
+      "keywords": ["node-red", "medidas", "measurement", "vision"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-medidas"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-meta",
+      "version": "1.0.0",
+      "description": "Nodo para agregar información adicional al elemento",
+      "keywords": ["node-red", "meta", "datos", "información", "metadata"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-meta"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-ocr",
+      "version": "1.0.0",
+      "description": "Nodo para reconocimiento óptico de caracteres",
+      "keywords": ["node-red", "ocr", "text-recognition", "easyocr"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-ocr"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-presencias",
+      "version": "1.0.0",
+      "description": "Nodo para gestionar presencias basadas en detecciones",
+      "keywords": ["node-red", "presencias", "presence", "detection"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-presencias"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-proyecto",
+      "version": "1.0.0",
+      "description": "Nodo para definir el tipo de proyecto en NodeRED",
+      "keywords": ["node-red", "referencia", "json", "proyecto", "tipo"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-proyecto"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-read-signal",
+      "version": "1.0.0",
+      "description": "Nodo para leer una señal de un PLC",
+      "keywords": ["node-red", "plc", "señales", "trigger", "industrial"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-read-signal"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-receta",
+      "version": "1.0.0",
+      "description": "Nodo para unir detecciones de anomalías y presencias dando un resultado final",
+      "keywords": ["node-red", "receta", "recipe", "quality-control"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-receta"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-referencia",
+      "version": "1.0.0",
+      "description": "Nodo de referencia para Node-RED",
+      "keywords": ["node-red", "referencia", "json", "reference"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-referencia"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-relay",
+      "version": "1.0.0",
+      "description": "Nodo para control de relays Modbus",
+      "keywords": ["node-red", "relay", "modbus", "control"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-relay"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-sql-puzzle",
+      "version": "1.0.0",
+      "description": "Nodo para realizar consultas a bases de datos SQL",
+      "keywords": ["node-red", "SQL", "query", "database"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-sql-puzzle"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-vision-tradicional",
+      "version": "1.0.0",
+      "description": "Nodo para aplicar filtros de visión tradicional en Node-RED",
+      "keywords": ["node-red", "vision", "filtros", "canny", "opencv"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-vision-tradicional"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-write-signal",
+      "version": "1.0.0",
+      "description": "Nodo para escribir una señal en un PLC",
+      "keywords": ["node-red", "plc", "señales", "trigger", "write"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-write-signal"
+    },
+    {
+      "id": "@sialitech/node-red-contrib-yolo",
+      "version": "1.0.0",
+      "description": "Nodo para realizar predicciones de detecciones usando Docker y un API",
+      "keywords": ["node-red", "docker", "detecciones", "IA", "yolo", "detection"],
+      "url": "https://github.com/Sialitech/rely-docs/tree/main/packages/node-red-contrib-yolo"
+    }
+  ]
+}
