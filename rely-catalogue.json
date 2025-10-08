@@ -1,6 +1,6 @@
 {
   "name": "RELY Node-RED Nodes",
-  "updated_at": "2025-10-08T09:44:10Z",
+  "updated_at": "2025-10-08T09:45:20Z",
   "modules": [
     {
       "id": "@sialitech/node-red-contrib-rely-bundle",
