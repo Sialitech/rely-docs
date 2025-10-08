@@ -57,6 +57,16 @@ node-red-stop
 node-red-start
 ```
 
+✅ Los nodos RELY aparecerán en la paleta lateral
+
+---
+
+## ⚠️ Importante sobre Instalación
+
+**Los paquetes RELY son privados** y NO pueden instalarse desde la búsqueda de la paleta de Node-RED. 
+
+**Debes instalarlos por línea de comandos** usando npm como se muestra arriba.
+
 ---
 
 ## 📦 Paquetes Disponibles
@@ -75,27 +85,6 @@ node-red-start
 | 🏷️ **Identificación** | 2 | lector-codigos, id-manufacturer |
 | ⚙️ **Control Industrial** | 4 | read-signal, write-signal, relay, marcha |
 | 💾 **Gestión de Datos** | 5 | sql-puzzle, proyecto, referencia, gestor, meta |
-
----
-
-## 🎨 Mostrar en la Paleta de Node-RED
-
-Edita `~/.node-red/settings.js`:
-
-```javascript
-module.exports = {
-    editorTheme: {
-        palette: {
-            catalogues: [
-                'https://catalogue.nodered.org/catalogue.json',
-                'https://sialitech.github.io/rely-docs/rely-catalogue.json'
-            ]
-        }
-    }
-}
-```
-
-Reinicia Node-RED y busca `@sialitech` en la paleta.
 
 ---
 

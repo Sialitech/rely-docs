@@ -172,6 +172,19 @@
             color: #d68910;
         }
         
+        .info-box {
+            background: #e8f4f8;
+            border-left: 4px solid #3498db;
+            padding: 18px 22px;
+            margin: 20px 0;
+            border-radius: 8px;
+            color: #2c3e50;
+        }
+        
+        .info-box strong {
+            color: #2980b9;
+        }
+        
         .nodes-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -373,22 +386,15 @@ NPMRC</code></pre>
             </div>
 
             <div class="step">
-                <h3><span class="step-number">4</span> Configurar Catálogo en Node-RED</h3>
-                <p>Edita <code>~/.node-red/settings.js</code>:</p>
-                <pre><code>module.exports = {
-    editorTheme: {
-        palette: {
-            catalogues: [
-                'https://catalogue.nodered.org/catalogue.json',
-                <span class="command">'https://sialitech.github.io/rely-docs/rely-catalogue.json'</span>
-            ]
-        }
-    }
-}</code></pre>
+                <h3><span class="step-number">4</span> Reiniciar Node-RED</h3>
+                <p>Reinicia Node-RED para cargar los nodos instalados:</p>
+                <pre><code><span class="command">node-red-stop</span>
+<span class="command">node-red-start</span></code></pre>
+                <p>✅ Los nodos RELY aparecerán automáticamente en la paleta lateral para usar en tus flows</p>
             </div>
 
             <div class="warning">
-                <strong>⚠️ Importante:</strong> Después de configurar, reinicia Node-RED para ver los nodos en la paleta.
+                <strong>⚠️ Importante:</strong> Los paquetes RELY son privados y <strong>NO pueden instalarse desde la búsqueda de la paleta</strong> de Node-RED. Debes instalarlos por línea de comandos usando npm como se muestra arriba.
             </div>
         </div>
 
@@ -449,6 +455,10 @@ NPMRC</code></pre>
                 </div>
             </div>
 
+            <div class="info-box">
+                <strong>📋 Catálogo Informativo:</strong> Existe un catálogo JSON con información de todos los nodos en <code>https://sialitech.github.io/rely-docs/rely-catalogue.json</code>, pero solo es informativo. La instalación debe hacerse por CLI.
+            </div>
+
             <div class="quick-start">
                 <h3>💡 Instalación Selectiva</h3>
                 <p>También puedes instalar solo los nodos que necesites:</p>
@@ -462,7 +472,7 @@ NPMRC</code></pre>
             <h2>🔗 Enlaces Útiles</h2>
             
             <div class="links">
-                <a href="https://github.com/Sialitech/rely-docs" class="link-card" target="_blank">
+                <a href="https://github.com/Sialitech/nodos-rely" class="link-card" target="_blank">
                     <div class="link-icon">📂</div>
                     <div class="link-text">
                         <strong>Repositorio GitHub</strong>
@@ -482,7 +492,7 @@ NPMRC</code></pre>
                     <div class="link-icon">📋</div>
                     <div class="link-text">
                         <strong>Catálogo JSON</strong>
-                        <span>Archivo para Node-RED</span>
+                        <span>Información de nodos</span>
                     </div>
                 </a>
 
